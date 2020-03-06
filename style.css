@@ -1,6 +1,7 @@
 body {
-  background: #eee;
+  
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  background-image:url(tex.png);    
 }
 
 * {
@@ -9,23 +10,20 @@ body {
   padding: 0;
 }
 
-
-
-
-/* Style the header */
-header {
-  
-  background-image:url(tex.png);    
-  height: 100vh;
-  background-size: cover;
-  
+div4
+{
+  border-style: solid;
+  border-bottom-width: 300px;
 }
+
+
+
 
 .main-nav
 {
     float: right;
     list-style: none;
-    margin-top: 50px;
+    margin-top: 5px;
     line-height: 300%;
 }
 
@@ -52,17 +50,18 @@ header {
 
 .logo img
 {
-    width: 2px;
-    height: 2px;
+    width: 200px;
+    height: auto;
+    float: left;
 }
 
 .hero
 {
-    position: absolute;
+    position: left;
     width: 1200px;
-    margin-left: 0px;
-    margin-top: 0px;
-    margin-bottom: 100px;
+    
+    font-size: 25px;
+    line-height: 300%;
 }
 
 h1
@@ -100,17 +99,17 @@ ol
     text-transform: none;
     font-size: 25px;
     text-align: left;
-    margin-top: 200px;
+    margin-top: 80px;
     line-height: 300%;
     font-family: cursive;
-    text-indent: 3em;
+    text-indent: 8em;
     
 }
 
 .column {
   float: left;
   width: 25%;
-  height: 10px;    
+  height: 2px;    
   margin-bottom: 16px;
   padding: 0 8px;
 }
@@ -154,10 +153,11 @@ ol
   width: 100%;
 }
 
-h3 <!---can vary depending on me--->
+p1 <!---can vary depending on me--->
 {
-    line-height: 400%;
-    font-size: 50px;
+    line-height: 200%;
+    font-size: 30px;
+    
 }
 .button:hover {
   background-color: #555;
@@ -165,5 +165,15 @@ h3 <!---can vary depending on me--->
 
 .row
 {
-    line-height: 55px;
+    line-height: 75px;
+}
+
+h3
+{
+    
+    text-transform: uppercase;
+    font-size: 30px;
+    text-indent: 5em;
+    margin-top: 100px;
+    color: aliceblue
 }
