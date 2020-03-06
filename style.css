@@ -1,0 +1,168 @@
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+* {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+/* Style the header */
+header {
+  
+  background-image:url(tex.png);    
+  height: 140vh;
+  background-size: cover;
+  
+}
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 50px;
+    line-height: 300%;
+}
+
+.main-nav li a
+{
+    color: skyblue;
+    text-decoration: underline;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+}
+
+.main-nav li
+{
+    
+    display: inline-block
+}
+
+.main-nav li a:hover
+{
+    border: 1px solid white;
+    
+}
+
+.logo img
+{
+    width: 2px;
+    height: 2px;
+}
+
+.hero
+{
+    position: absolute;
+    width: 1200px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+h1
+{
+    color: skyblue;
+    text-transform: uppercase;
+    
+    text-align: left;
+    margin-top: 100px;
+    font-family: cursive;
+    text-indent: 1em;
+}
+
+.news
+{
+    position: absolute;
+    width: 1200px;
+    margin-left: 0px;
+    margin-top: 0px;
+    
+}
+
+.news p
+{
+    text-indent: 5em;
+    text-transform: default;
+    font-size: 20px;
+    color: skyblue;
+}
+
+ol
+{
+    
+    color: aliceblue;
+    text-transform: none;
+    font-size: 25px;
+    text-align: left;
+    margin-top: 200px;
+    line-height: 300%;
+    font-family: cursive;
+    text-indent: 3em;
+    
+}
+
+.column {
+  float: left;
+  width: 25%;
+  height: 25px;    
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+      
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+  color: white;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: white;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+h3 <!---can vary depending on me--->
+{
+    line-height: 400%;
+    font-size: 50px;
+}
+.button:hover {
+  background-color: #555;
+}
+
+.row
+{
+    line-height: 75px;
+}
