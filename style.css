@@ -172,6 +172,7 @@ h3
 {
     
     text-transform: uppercase;
+    text-shadow: 2px 2px black;
     font-size: 30px;
     text-indent: 5em;
     margin-top: 100px;
