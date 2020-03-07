@@ -182,6 +182,7 @@ h3
 {
     position: absolute;
     margin: auto;  
+    left: 50%;  
 }
 
 position: absolute;
