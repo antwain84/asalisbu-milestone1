@@ -94,8 +94,9 @@ h1
 ol
 {
     
-    color: #943126;
+    color: white;
     text-transform: none;
+    text-shadow: 2px 2px black;
     font-size: 25px;
     text-align: left;
     margin-top: 80px;
