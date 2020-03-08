@@ -68,10 +68,11 @@ h1
 {
     color: skyblue;
     text-transform: uppercase;    
-    text-align: left;
+    text-align: center;
     margin-top: 100px;
-    font-family: cursive;
+    font-family: verdana;
     text-indent: 1em;
+    
 }
 
 .news
