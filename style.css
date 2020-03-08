@@ -130,6 +130,7 @@ ol
 .container {
   padding: 0 16px;
   color: white;
+  text-shadow: 2px 2px black;
 }
 
 .container::after, .row::after {
@@ -140,6 +141,7 @@ ol
 
 .title {
   color: white;
+  text-shadow: 2px 2px black;
 }
 
 .button {
